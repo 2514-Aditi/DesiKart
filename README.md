@@ -63,7 +63,6 @@ We chose to tackle rural commerce because of the vast untapped potential in rura
 
 - ✅ *User-friendly platform* that connects rural sellers like farmers and artisans directly with urban consumers, cutting out the middlemen.
 - ✅ *Seller Dashboard* with insights and order management   
-- ✅ *Smart Wallet Integration* for digital payments  
 - ✅ *Decentralized Marketplace* with blockchain-backed transactions  
 
 
