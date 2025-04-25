@@ -89,25 +89,62 @@ We chose to tackle rural commerce because of the vast untapped potential in rura
 
 ## 🧪 How to Run the Project
 
-### Requirements:
-- Node.js / Python / Docker / etc.
-- API Keys (if any)
-- .env file setup (if needed)
+## ✅ Prerequisites
 
-### Local Setup:
-bash
-# Clone the repo
-git clone https://github.com/your-team/project-name
+- Node.js and npm
+- MongoDB (local or Atlas)
+- Stellar Testnet Account (via [Stellar Laboratory](https://laboratory.stellar.org/#account-creator?network=test))
 
-# Install dependencies
-cd project-name
+---
+
+## 🚀 How to Run DesiKart Locally
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/2514-Aditi/DesiKart.git
+cd DesiKart
+```
+
+---
+
+### 2️⃣ Start Backend Server
+
+```bash
+cd backend
 npm install
+node server.js
+```
+---
 
-# Start development server
-npm run dev
+### 3️⃣ Generate Stellar Keys
 
+- Go to [Stellar Laboratory](https://laboratory.stellar.org/#account-creator?network=test)
+- Click “Create Account”
+- Save the following:
+  - **Public Key** (used in `frontend/src/components/Payment.jsx`)
+  - **Secret Key** (This will be requested during the payment process. Ensure you securely enter it when prompted.)
 
-Provide any backend/frontend split or environment setup notes here.
+---
+
+### 4️⃣ Add Stellar Keys
+
+- In `frontend/src/components/Payment.jsx`, update:
+
+```javascript
+const receiverPublic = "";
+```
+---
+
+### 5️⃣ Start Frontend
+
+```bash
+cd ../frontend
+npm install
+npm start
+```
+
+The frontend will run on: [http://localhost:3000](http://localhost:3000)
 
 ---
 
