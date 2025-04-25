@@ -54,8 +54,6 @@ We chose to tackle rural commerce because of the vast untapped potential in rura
 - Frontend: React.js, HTML5, CSS3
 - Backend: Node.js
 - Database: MongoDB
-- APIs:
-- Hosting:
 
 ### Sponsor Technologies Used (if any):
  - ✅ *Stellar:* For Payments
