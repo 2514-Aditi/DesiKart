@@ -70,7 +70,7 @@ We chose to tackle rural commerce because of the vast untapped potential in rura
 
 ## 📽️ Demo & Deliverables
 
-- *Demo Video Link:* [Paste YouTube or Loom link here]  
+- *Demo Video Link:* [https://youtu.be/UaYiTP40XxU?si=IdYdT3ZshjGol1FX]  
 - *PPT Link:* [https://docs.google.com/presentation/d/1Ch4lLZC4V9pjAyUq8NTe3ojBLsGZnIZn/edit?usp=sharing&ouid=118090245853377366029&rtpof=true&sd=true]  
 
 ---
